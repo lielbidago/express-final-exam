@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { validate } from './validator';
+import validate from './validator'
 
 describe('validate', () => {
     it('should pass for valid input', () => {
@@ -21,3 +21,5 @@ describe('validate', () => {
         expect(validate(input)).to.be.false;
     });
 });
+
+
